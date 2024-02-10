@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92B593E42B6C0D5B002639F3 /* Send_Me_To_HeavenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B593E32B6C0D5B002639F3 /* Send_Me_To_HeavenApp.swift */; };
+		92B593E62B6C0D5B002639F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B593E52B6C0D5B002639F3 /* ContentView.swift */; };
+		92B593E82B6C0D5B002639F3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B593E72B6C0D5B002639F3 /* Item.swift */; };
+		92B593EA2B6C0D65002639F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B593E92B6C0D65002639F3 /* Assets.xcassets */; };
+		92B593ED2B6C0D65002639F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B593EC2B6C0D65002639F3 /* Preview Assets.xcassets */; };
+		92B593F72B6C0D65002639F3 /* Send_Me_To_HeavenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B593F62B6C0D65002639F3 /* Send_Me_To_HeavenTests.swift */; };
+		92B594012B6C0D65002639F3 /* Send_Me_To_HeavenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B594002B6C0D65002639F3 /* Send_Me_To_HeavenUITests.swift */; };
+		92B594032B6C0D65002639F3 /* Send_Me_To_HeavenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B594022B6C0D65002639F3 /* Send_Me_To_HeavenUITestsLaunchTests.swift */; };
+		92B594112B6C0E24002639F3 /* Accelerometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B594102B6C0E24002639F3 /* Accelerometer.swift */; };
+		92E4C3E82B72BEED00FA7246 /* Altimeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E4C3E72B72BEED00FA7246 /* Altimeter.swift */; };
+		92E4C3ED2B72FD8300FA7246 /* RecordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E4C3EC2B72FD8300FA7246 /* RecordScreen.swift */; };
+		92E4C3EF2B72FFD800FA7246 /* AltitudeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E4C3EE2B72FFD800FA7246 /* AltitudeView.swift */; };
+		92E4C3F12B77E71D00FA7246 /* AltitudeTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E4C3F02B77E71D00FA7246 /* AltitudeTrackerView.swift */; };
+		92E4C3F32B77E9C700FA7246 /* ModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E4C3F22B77E9C700FA7246 /* ModelContainer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92B593F32B6C0D65002639F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B593D82B6C0D5B002639F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B593DF2B6C0D5B002639F3;
+			remoteInfo = "Send Me To Heaven";
+		};
+		92B593FD2B6C0D65002639F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B593D82B6C0D5B002639F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B593DF2B6C0D5B002639F3;
+			remoteInfo = "Send Me To Heaven";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92B593E02B6C0D5B002639F3 /* Send Me To Heaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Send Me To Heaven.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B593E32B6C0D5B002639F3 /* Send_Me_To_HeavenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Send_Me_To_HeavenApp.swift; sourceTree = "<group>"; };
+		92B593E52B6C0D5B002639F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92B593E72B6C0D5B002639F3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		92B593E92B6C0D65002639F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92B593EC2B6C0D65002639F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92B593F22B6C0D65002639F3 /* Send Me To HeavenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Send Me To HeavenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B593F62B6C0D65002639F3 /* Send_Me_To_HeavenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Send_Me_To_HeavenTests.swift; sourceTree = "<group>"; };
+		92B593FC2B6C0D65002639F3 /* Send Me To HeavenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Send Me To HeavenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B594002B6C0D65002639F3 /* Send_Me_To_HeavenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Send_Me_To_HeavenUITests.swift; sourceTree = "<group>"; };
+		92B594022B6C0D65002639F3 /* Send_Me_To_HeavenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Send_Me_To_HeavenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92B594102B6C0E24002639F3 /* Accelerometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accelerometer.swift; sourceTree = "<group>"; };
+		92E4C3E72B72BEED00FA7246 /* Altimeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Altimeter.swift; sourceTree = "<group>"; };
+		92E4C3EC2B72FD8300FA7246 /* RecordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordScreen.swift; sourceTree = "<group>"; };
+		92E4C3EE2B72FFD800FA7246 /* AltitudeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltitudeView.swift; sourceTree = "<group>"; };
+		92E4C3F02B77E71D00FA7246 /* AltitudeTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltitudeTrackerView.swift; sourceTree = "<group>"; };
+		92E4C3F22B77E9C700FA7246 /* ModelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelContainer.swift; sourceTree = "<group>"; };
+		92E4C3F42B77EBFE00FA7246 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92B593DD2B6C0D5B002639F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B593EF2B6C0D65002639F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B593F92B6C0D65002639F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92B593D72B6C0D5B002639F3 = {
+			isa = PBXGroup;
+			children = (
+				92E4C3F42B77EBFE00FA7246 /* README.md */,
+				92B593E22B6C0D5B002639F3 /* Send Me To Heaven */,
+				92B593F52B6C0D65002639F3 /* Send Me To HeavenTests */,
+				92B593FF2B6C0D65002639F3 /* Send Me To HeavenUITests */,
+				92B593E12B6C0D5B002639F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92B593E12B6C0D5B002639F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92B593E02B6C0D5B002639F3 /* Send Me To Heaven.app */,
+				92B593F22B6C0D65002639F3 /* Send Me To HeavenTests.xctest */,
+				92B593FC2B6C0D65002639F3 /* Send Me To HeavenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92B593E22B6C0D5B002639F3 /* Send Me To Heaven */ = {
+			isa = PBXGroup;
+			children = (
+				92E4C3E92B72FD4400FA7246 /* Screens */,
+				92B5940F2B6C0DF9002639F3 /* Model */,
+				92B593E32B6C0D5B002639F3 /* Send_Me_To_HeavenApp.swift */,
+				92B593E52B6C0D5B002639F3 /* ContentView.swift */,
+				92B593E72B6C0D5B002639F3 /* Item.swift */,
+				92B593E92B6C0D65002639F3 /* Assets.xcassets */,
+				92B593EB2B6C0D65002639F3 /* Preview Content */,
+			);
+			path = "Send Me To Heaven";
+			sourceTree = "<group>";
+		};
+		92B593EB2B6C0D65002639F3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				92B593EC2B6C0D65002639F3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92B593F52B6C0D65002639F3 /* Send Me To HeavenTests */ = {
+			isa = PBXGroup;
+			children = (
+				92B593F62B6C0D65002639F3 /* Send_Me_To_HeavenTests.swift */,
+			);
+			path = "Send Me To HeavenTests";
+			sourceTree = "<group>";
+		};
+		92B593FF2B6C0D65002639F3 /* Send Me To HeavenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92B594002B6C0D65002639F3 /* Send_Me_To_HeavenUITests.swift */,
+				92B594022B6C0D65002639F3 /* Send_Me_To_HeavenUITestsLaunchTests.swift */,
+			);
+			path = "Send Me To HeavenUITests";
+			sourceTree = "<group>";
+		};
+		92B5940F2B6C0DF9002639F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92B594102B6C0E24002639F3 /* Accelerometer.swift */,
+				92E4C3E72B72BEED00FA7246 /* Altimeter.swift */,
+				92E4C3F22B77E9C700FA7246 /* ModelContainer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92E4C3E92B72FD4400FA7246 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				92E4C3EC2B72FD8300FA7246 /* RecordScreen.swift */,
+				92E4C3EE2B72FFD800FA7246 /* AltitudeView.swift */,
+				92E4C3F02B77E71D00FA7246 /* AltitudeTrackerView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92B593DF2B6C0D5B002639F3 /* Send Me To Heaven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B594062B6C0D65002639F3 /* Build configuration list for PBXNativeTarget "Send Me To Heaven" */;
+			buildPhases = (
+				92B593DC2B6C0D5B002639F3 /* Sources */,
+				92B593DD2B6C0D5B002639F3 /* Frameworks */,
+				92B593DE2B6C0D5B002639F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Send Me To Heaven";
+			productName = "Send Me To Heaven";
+			productReference = 92B593E02B6C0D5B002639F3 /* Send Me To Heaven.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92B593F12B6C0D65002639F3 /* Send Me To HeavenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B594092B6C0D65002639F3 /* Build configuration list for PBXNativeTarget "Send Me To HeavenTests" */;
+			buildPhases = (
+				92B593EE2B6C0D65002639F3 /* Sources */,
+				92B593EF2B6C0D65002639F3 /* Frameworks */,
+				92B593F02B6C0D65002639F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92B593F42B6C0D65002639F3 /* PBXTargetDependency */,
+			);
+			name = "Send Me To HeavenTests";
+			productName = "Send Me To HeavenTests";
+			productReference = 92B593F22B6C0D65002639F3 /* Send Me To HeavenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92B593FB2B6C0D65002639F3 /* Send Me To HeavenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B5940C2B6C0D65002639F3 /* Build configuration list for PBXNativeTarget "Send Me To HeavenUITests" */;
+			buildPhases = (
+				92B593F82B6C0D65002639F3 /* Sources */,
+				92B593F92B6C0D65002639F3 /* Frameworks */,
+				92B593FA2B6C0D65002639F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92B593FE2B6C0D65002639F3 /* PBXTargetDependency */,
+			);
+			name = "Send Me To HeavenUITests";
+			productName = "Send Me To HeavenUITests";
+			productReference = 92B593FC2B6C0D65002639F3 /* Send Me To HeavenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92B593D82B6C0D5B002639F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					92B593DF2B6C0D5B002639F3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					92B593F12B6C0D65002639F3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 92B593DF2B6C0D5B002639F3;
+					};
+					92B593FB2B6C0D65002639F3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 92B593DF2B6C0D5B002639F3;
+					};
+				};
+			};
+			buildConfigurationList = 92B593DB2B6C0D5B002639F3 /* Build configuration list for PBXProject "Send Me To Heaven" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92B593D72B6C0D5B002639F3;
+			productRefGroup = 92B593E12B6C0D5B002639F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92B593DF2B6C0D5B002639F3 /* Send Me To Heaven */,
+				92B593F12B6C0D65002639F3 /* Send Me To HeavenTests */,
+				92B593FB2B6C0D65002639F3 /* Send Me To HeavenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92B593DE2B6C0D5B002639F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B593ED2B6C0D65002639F3 /* Preview Assets.xcassets in Resources */,
+				92B593EA2B6C0D65002639F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B593F02B6C0D65002639F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B593FA2B6C0D65002639F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92B593DC2B6C0D5B002639F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E4C3EF2B72FFD800FA7246 /* AltitudeView.swift in Sources */,
+				92E4C3E82B72BEED00FA7246 /* Altimeter.swift in Sources */,
+				92B593E62B6C0D5B002639F3 /* ContentView.swift in Sources */,
+				92E4C3ED2B72FD8300FA7246 /* RecordScreen.swift in Sources */,
+				92E4C3F32B77E9C700FA7246 /* ModelContainer.swift in Sources */,
+				92B594112B6C0E24002639F3 /* Accelerometer.swift in Sources */,
+				92B593E82B6C0D5B002639F3 /* Item.swift in Sources */,
+				92B593E42B6C0D5B002639F3 /* Send_Me_To_HeavenApp.swift in Sources */,
+				92E4C3F12B77E71D00FA7246 /* AltitudeTrackerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B593EE2B6C0D65002639F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B593F72B6C0D65002639F3 /* Send_Me_To_HeavenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B593F82B6C0D65002639F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B594032B6C0D65002639F3 /* Send_Me_To_HeavenUITestsLaunchTests.swift in Sources */,
+				92B594012B6C0D65002639F3 /* Send_Me_To_HeavenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92B593F42B6C0D65002639F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B593DF2B6C0D5B002639F3 /* Send Me To Heaven */;
+			targetProxy = 92B593F32B6C0D65002639F3 /* PBXContainerItemProxy */;
+		};
+		92B593FE2B6C0D65002639F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B593DF2B6C0D5B002639F3 /* Send Me To Heaven */;
+			targetProxy = 92B593FD2B6C0D65002639F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92B594042B6C0D65002639F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92B594052B6C0D65002639F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92B594072B6C0D65002639F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Send Me To Heaven/Preview Content\"";
+				DEVELOPMENT_TEAM = 628W5MXAFC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zachmacconnell.Send-Me-To-Heaven";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92B594082B6C0D65002639F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Send Me To Heaven/Preview Content\"";
+				DEVELOPMENT_TEAM = 628W5MXAFC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zachmacconnell.Send-Me-To-Heaven";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92B5940A2B6C0D65002639F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 628W5MXAFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zachmacconnell.Send-Me-To-HeavenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Send Me To Heaven.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Send Me To Heaven";
+			};
+			name = Debug;
+		};
+		92B5940B2B6C0D65002639F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 628W5MXAFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zachmacconnell.Send-Me-To-HeavenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Send Me To Heaven.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Send Me To Heaven";
+			};
+			name = Release;
+		};
+		92B5940D2B6C0D65002639F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 628W5MXAFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zachmacconnell.Send-Me-To-HeavenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Send Me To Heaven";
+			};
+			name = Debug;
+		};
+		92B5940E2B6C0D65002639F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 628W5MXAFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zachmacconnell.Send-Me-To-HeavenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Send Me To Heaven";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92B593DB2B6C0D5B002639F3 /* Build configuration list for PBXProject "Send Me To Heaven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B594042B6C0D65002639F3 /* Debug */,
+				92B594052B6C0D65002639F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B594062B6C0D65002639F3 /* Build configuration list for PBXNativeTarget "Send Me To Heaven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B594072B6C0D65002639F3 /* Debug */,
+				92B594082B6C0D65002639F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B594092B6C0D65002639F3 /* Build configuration list for PBXNativeTarget "Send Me To HeavenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B5940A2B6C0D65002639F3 /* Debug */,
+				92B5940B2B6C0D65002639F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B5940C2B6C0D65002639F3 /* Build configuration list for PBXNativeTarget "Send Me To HeavenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B5940D2B6C0D65002639F3 /* Debug */,
+				92B5940E2B6C0D65002639F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92B593D82B6C0D5B002639F3 /* Project object */;
+}
