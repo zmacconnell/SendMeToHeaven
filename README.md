@@ -5,9 +5,7 @@ app records a relative altitude of how high the device is thrown into the air. T
 design ffor this app is to help me better my understanding of Swift and how to make 
 Apple apps. 
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/ujPJjSlzQvo)
 
 # Development Environment
 
@@ -17,7 +15,6 @@ Apple.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Apple iOS Development Website](https://developer.apple.com/tutorials/app-dev-training)
 * [Applle Core Motion Altimeter Documentation](https://developer.apple.com/documentation/coremotion/cmaltimeter)
 
