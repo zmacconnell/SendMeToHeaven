@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		92B593E42B6C0D5B002639F3 /* Send_Me_To_HeavenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B593E32B6C0D5B002639F3 /* Send_Me_To_HeavenApp.swift */; };
 		92B593E62B6C0D5B002639F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B593E52B6C0D5B002639F3 /* ContentView.swift */; };
 		92B593E82B6C0D5B002639F3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B593E72B6C0D5B002639F3 /* Item.swift */; };
 		92B593EA2B6C0D65002639F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B593E92B6C0D65002639F3 /* Assets.xcassets */; };
@@ -16,6 +15,8 @@
 		92B594012B6C0D65002639F3 /* Send_Me_To_HeavenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B594002B6C0D65002639F3 /* Send_Me_To_HeavenUITests.swift */; };
 		92B594032B6C0D65002639F3 /* Send_Me_To_HeavenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B594022B6C0D65002639F3 /* Send_Me_To_HeavenUITestsLaunchTests.swift */; };
 		92B594112B6C0E24002639F3 /* Accelerometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B594102B6C0E24002639F3 /* Accelerometer.swift */; };
+		92BB88A02B7EA17A0074D78A /* Send_Me_To_HeavenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BB889F2B7EA1750074D78A /* Send_Me_To_HeavenApp.swift */; };
+		92BB88A22B87C0AA0074D78A /* HighestAltitudeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BB88A12B87C0AA0074D78A /* HighestAltitudeView.swift */; };
 		92E4C3E82B72BEED00FA7246 /* Altimeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E4C3E72B72BEED00FA7246 /* Altimeter.swift */; };
 		92E4C3ED2B72FD8300FA7246 /* RecordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E4C3EC2B72FD8300FA7246 /* RecordScreen.swift */; };
 		92E4C3EF2B72FFD800FA7246 /* AltitudeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E4C3EE2B72FFD800FA7246 /* AltitudeView.swift */; };
@@ -42,7 +43,6 @@
 
 /* Begin PBXFileReference section */
 		92B593E02B6C0D5B002639F3 /* Send Me To Heaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Send Me To Heaven.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		92B593E32B6C0D5B002639F3 /* Send_Me_To_HeavenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Send_Me_To_HeavenApp.swift; sourceTree = "<group>"; };
 		92B593E52B6C0D5B002639F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		92B593E72B6C0D5B002639F3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		92B593E92B6C0D65002639F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		92B594002B6C0D65002639F3 /* Send_Me_To_HeavenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Send_Me_To_HeavenUITests.swift; sourceTree = "<group>"; };
 		92B594022B6C0D65002639F3 /* Send_Me_To_HeavenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Send_Me_To_HeavenUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		92B594102B6C0E24002639F3 /* Accelerometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accelerometer.swift; sourceTree = "<group>"; };
+		92BB889F2B7EA1750074D78A /* Send_Me_To_HeavenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Send_Me_To_HeavenApp.swift; sourceTree = "<group>"; };
+		92BB88A12B87C0AA0074D78A /* HighestAltitudeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighestAltitudeView.swift; sourceTree = "<group>"; };
 		92E4C3E72B72BEED00FA7246 /* Altimeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Altimeter.swift; sourceTree = "<group>"; };
 		92E4C3EC2B72FD8300FA7246 /* RecordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordScreen.swift; sourceTree = "<group>"; };
 		92E4C3EE2B72FFD800FA7246 /* AltitudeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltitudeView.swift; sourceTree = "<group>"; };
@@ -112,7 +114,7 @@
 			children = (
 				92E4C3E92B72FD4400FA7246 /* Screens */,
 				92B5940F2B6C0DF9002639F3 /* Model */,
-				92B593E32B6C0D5B002639F3 /* Send_Me_To_HeavenApp.swift */,
+				92BB889F2B7EA1750074D78A /* Send_Me_To_HeavenApp.swift */,
 				92B593E52B6C0D5B002639F3 /* ContentView.swift */,
 				92B593E72B6C0D5B002639F3 /* Item.swift */,
 				92B593E92B6C0D65002639F3 /* Assets.xcassets */,
@@ -162,6 +164,7 @@
 				92E4C3EC2B72FD8300FA7246 /* RecordScreen.swift */,
 				92E4C3EE2B72FFD800FA7246 /* AltitudeView.swift */,
 				92E4C3F02B77E71D00FA7246 /* AltitudeTrackerView.swift */,
+				92BB88A12B87C0AA0074D78A /* HighestAltitudeView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -299,11 +302,12 @@
 				92E4C3EF2B72FFD800FA7246 /* AltitudeView.swift in Sources */,
 				92E4C3E82B72BEED00FA7246 /* Altimeter.swift in Sources */,
 				92B593E62B6C0D5B002639F3 /* ContentView.swift in Sources */,
+				92BB88A22B87C0AA0074D78A /* HighestAltitudeView.swift in Sources */,
 				92E4C3ED2B72FD8300FA7246 /* RecordScreen.swift in Sources */,
 				92E4C3F32B77E9C700FA7246 /* ModelContainer.swift in Sources */,
 				92B594112B6C0E24002639F3 /* Accelerometer.swift in Sources */,
+				92BB88A02B7EA17A0074D78A /* Send_Me_To_HeavenApp.swift in Sources */,
 				92B593E82B6C0D5B002639F3 /* Item.swift in Sources */,
-				92B593E42B6C0D5B002639F3 /* Send_Me_To_HeavenApp.swift in Sources */,
 				92E4C3F12B77E71D00FA7246 /* AltitudeTrackerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

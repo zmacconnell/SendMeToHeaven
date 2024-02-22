@@ -7,8 +7,6 @@
 
 import Foundation
 import CoreMotion
-import SwiftUI
-
 
 class AltitudeManager: ObservableObject {
     @Published var highestAltitude: Double = 0
@@ -37,9 +35,10 @@ class AltitudeManager: ObservableObject {
         }
     }
 
-    func stopTrackingAltitude() {
+    func stopTrackingAltitude() -> Double {
         isTrackingAltitude = false
         altimeter.stopRelativeAltitudeUpdates()
+        return highestAltitude
     }
 }
 

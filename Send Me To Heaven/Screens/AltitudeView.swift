@@ -8,29 +8,34 @@
 import SwiftUI
 
 struct AltitudeView: View {
-    @ObservedObject var altitudeManager: AltitudeManager
+    @StateObject var altitudeManager = AltitudeManager()
+    @State private var showingHighestAltitude = false
 
     var body: some View {
         VStack {
-            Text("Highest Altitude: \(String(format: "%.2f", altitudeManager.highestAltitude)) meters")
-                .font(.title)
+            Text("Highest Altitude: \(altitudeManager.highestAltitude)")
                 .padding()
 
             Button(action: {
-                // Start or stop altitude updates based on the current tracking status
                 if altitudeManager.isTrackingAltitude {
-                    altitudeManager.stopTrackingAltitude()
+                    let highestAltitude = altitudeManager.stopTrackingAltitude()
+                    showingHighestAltitude = true
                 } else {
                     altitudeManager.startTrackingAltitude()
                 }
             }) {
                 Text(altitudeManager.isTrackingAltitude ? "Stop Tracking" : "Start Tracking")
                     .padding()
-                    .foregroundColor(.white)
-                    .background(Color.blue)
-                    .cornerRadius(10)
             }
-            .padding()
+        }
+        .sheet(isPresented: $showingHighestAltitude) {
+            HighestAltitudeView(highestAltitude: altitudeManager.highestAltitude)
+        }
+        .onAppear {
+            altitudeManager.startTrackingAltitude()
+        }
+        .onDisappear {
+            altitudeManager.stopTrackingAltitude()
         }
     }
 }
