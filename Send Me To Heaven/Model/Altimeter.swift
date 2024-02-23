@@ -46,5 +46,5 @@ class AltitudeManager: ObservableObject {
 // let altitudeManager = AltitudeManager()
 // altitudeManager.startTrackingAltitude()
 
-// After the journey or when the altitude tracking is no longer needed
+// After the throw or when the altitude tracking is no longer needed
 // altitudeManager.stopTrackingAltitude()
